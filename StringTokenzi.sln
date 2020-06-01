@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30001.183
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Logic", "01 Logic", "{8A2B89E9-B9AA-4177-A7B5-6EF0BCBDA300}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Apps", "02 Apps", "{78794CE2-53EB-4A2F-9B12-4F37895F11EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tokenzi.Apps", "02 Apps\Tokenzi.Apps\Tokenzi.Apps.csproj", "{D31138AA-486D-47D2-A6EF-89A5ED6DC5A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Problems", "00 Problems", "{08A29FFF-1250-4187-AC2B-9E5CBAFB39DA}"
+	ProjectSection(SolutionItems) = preProject
+		00 Problems\TokenizeString.png = 00 Problems\TokenizeString.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tokenzi.Logic", "01 Logic\Tokenzi.Logic\Tokenzi.Logic.csproj", "{8FDF7EC7-E16B-46BF-B6DC-8FBD00E6F17E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 TestCase", "03 TestCase", "{C5A984E1-E931-4E72-BE39-CFB68E45B28E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tokenzi.MS.Testing", "03 TestCase\Tokenzi.MS.Testing\Tokenzi.MS.Testing.csproj", "{E9629B8D-E164-4E02-B7F1-A003E84BAD65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D31138AA-486D-47D2-A6EF-89A5ED6DC5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31138AA-486D-47D2-A6EF-89A5ED6DC5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31138AA-486D-47D2-A6EF-89A5ED6DC5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31138AA-486D-47D2-A6EF-89A5ED6DC5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDF7EC7-E16B-46BF-B6DC-8FBD00E6F17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDF7EC7-E16B-46BF-B6DC-8FBD00E6F17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDF7EC7-E16B-46BF-B6DC-8FBD00E6F17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDF7EC7-E16B-46BF-B6DC-8FBD00E6F17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9629B8D-E164-4E02-B7F1-A003E84BAD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9629B8D-E164-4E02-B7F1-A003E84BAD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9629B8D-E164-4E02-B7F1-A003E84BAD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9629B8D-E164-4E02-B7F1-A003E84BAD65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D31138AA-486D-47D2-A6EF-89A5ED6DC5A5} = {78794CE2-53EB-4A2F-9B12-4F37895F11EF}
+		{8FDF7EC7-E16B-46BF-B6DC-8FBD00E6F17E} = {8A2B89E9-B9AA-4177-A7B5-6EF0BCBDA300}
+		{E9629B8D-E164-4E02-B7F1-A003E84BAD65} = {C5A984E1-E931-4E72-BE39-CFB68E45B28E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AEDA671-6329-4F1E-9AAA-E9D3020107D2}
+	EndGlobalSection
+EndGlobal
